@@ -1,0 +1,30 @@
+
+
+.countdown-clock {
+	max-width: 400px;
+	display: flex;
+	padding: 20px 0;
+}
+
+.countdown-clock .countdown-column {
+	flex: 1;
+	text-align: center;
+	background: #eee;
+	border-radius: 15px;
+	padding: 15px 10px;
+	margin: 0 5px;
+}
+
+.countdown-clock  .countdown-column .number {
+	display: block;
+	font-size: 2.5em;
+	line-height: 1em;
+	font-weight: bold;
+	padding-bottom: 10px;
+	color: #333;
+}
+
+.countdown-clock  .countdown-column .label {
+	color: #aaa;
+}
+
